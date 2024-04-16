@@ -65,8 +65,8 @@ public class BatteryOptimizationUtil {
                     .setDontShowAgain(false)
                     .setTitleMessage(titleMessage)
                     .setContentMessage(contentMessage)
-                    .setPositiveMessage("Ok")
-                    //.setNegativeMessage("Will Give Later")
+                    .setPositiveMessage("الذهاب")
+                    .setNegativeMessage("إلغاء")
                     .setOnPositiveCallback(view -> {
                         if (positiveCallback != null)
                             positiveCallback.onBatteryOptimizationAccepted();
